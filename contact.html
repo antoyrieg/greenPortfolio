@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact Me</title>
+	 <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Indie+Flower" >
+	 <link rel="stylesheet" type="text/css" href="contactstyle.css"/>
+</head>
+<body>
+	<header> Contact Me 
+	   <nav>
+     <a href="index.html"> Home | </a>
+     <a href="about.html"> About | </a> 
+     <a href="portfolio.html"> Portfolio | </a>
+     <a href="resume.html"> Resume </a>
+  </nav>
+	</header>
+<div class="form" >	
+	<h2> Or Have Me Contact You </h2>
+	<form method="post" action="thankyou.html">
+Your name: <input type="text" name="name"><br>
+Your email: <input type="text" name="email"><br>
+Are you a Detroiter, too? It'll make you even cooler! <input type="radio" name="areYouADetroiter" value=yes
+checked="checked" /> Yes 
+ <input type="radio" name="areYouADetroiter" value=no/> No <br>
+<input id="contactme" type="image" src="images/contactme.jpg"
+width="100" height="50" />
+</form>
+</div> <br>
+<div id="button"> 
+
+<input type="text" id="myText" value="" >
+
+<p>Add your name above and click the button to see who's the coolest!</p>
+
+<button id="whosCool" onclick="myFunction()">And the coolest is...</button>
+
+<p id="cool"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myText").value;
+    document.getElementById("cool").innerHTML = x;
+}
+</script>
+</div>
+<footer class="footer">
+<a class="contact" href="mailto:antoyrieg@gmail.com">Shoot Me An Email |</a> 
+	<a class="contact" href="https://www.facebook.com/tMichelle"> Friend Me On Facebook </a>
+</footer>
+</body>
+</html> 

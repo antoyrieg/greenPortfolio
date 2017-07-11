@@ -1,0 +1,29 @@
+ nav { 
+ text-align: center 
+ }
+ a{ 
+ font-size: 24px;
+ color:#9D144B; }
+ 
+header { 
+background-color: #BC4D6A;
+font-family: 'Indie Flower';
+text-align: center;
+font-size: 40px;
+ }
+ body { 
+ font-family: "Lucida Sans Unicode", "Lucida Grande"; 
+ background: rgba(255,0,0,0.1); }
+ 
+ a.tile {
+ border: 2px solid red;
+ display: inline-block;
+ width: 27.5%;
+ margin: 2%;
+ padding 1%;}
+ 
+.examples {
+width: 100%;}
+
+.wrapper{
+font-size: 0px; }
